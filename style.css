@@ -1,0 +1,82 @@
+
+form{
+ background:rgb(237, 226, 206);
+ padding:34px;
+ width:45%;
+ align-content: center;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ border:8px, groove,black,;
+ border-radius:15px;
+}
+body{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 22px;
+    background:linear-gradient(navy,purple);
+}
+h2{
+    text-align: center;
+    font-size: 37px;
+    color: rgb(62, 58, 53);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+fieldset{
+    //text-align: left;
+    border-color: black;
+
+}
+legend{
+    size :20px;
+}
+#first{
+    font-size:20px;
+    justify-content:center;
+    text-align:center;
+    
+
+}
+#second{
+    font-size:20px;
+    text-align:center;
+    justify-content:center;
+    
+
+}
+#radio{
+    text-align:justify; 
+    position:relative;
+    padding-left: 344px;
+}
+#checkbox{
+    text-align:justify; 
+    position:relative;
+    padding-left: 344px; 
+}
+label{
+    font-size:18px;
+}
+button{
+    font-size: 15px;
+    background-color:rgb(240, 215, 219);
+    text-align:justify; 
+    position:relative;
+     
+}
+input{
+    background-color: rgb(240, 215, 219);
+}
+textarea{
+    background-color: rgb(240, 215, 219);
+    
+}
+option{
+    background-color:rgb(240, 215, 219);
+    size: 23px;
+}
+p{
+     color:aliceblue;
+     text-align: left;
+     font-size: 25px;
+}

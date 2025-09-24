@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <P>Anushka Bhuskat<br>Roll No.1 </P>
+   
+    <form action="#" method="post">
+        <div id="hh"> <h2>Student Feedback Form</h2></div>
+        <!-- Personal Details -->
+         <div id="first">
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            
+            <label for="sis">Sis Id:</label>
+            <input type="text" id="sis" name="sisl" placeholder="Enter your Sis Id" required><br><br>
+            <label for="roll">Roll No:</label>
+            <input type="text" id="roll" name="roll" placeholder="Enter your roll no"required><br><br>
+
+        </fieldset>
+    </div>
+        <!-- Course Feedback -->
+         <div id="second">
+            
+        <fieldset>
+            <legend><b>Course Feedback</b></legend>
+            <label for="course">Course Name:</label>
+            <select id="course" name="course">
+                <option value="ai101">Artificial Intelligence</option>
+                <option value="dsn201">Data communication and networking</option>
+                <option value="os301">Operating System</option>
+                <option value="malp401">M & ALP</option>
+                <option value="toc501">Theory of computation</option>
+                <option value="evs601">Environmental studies</option>
+            </select><br><br>
+        <div id="radio">
+            <label>Teaching Quality:</label><br>
+            <input type="radio" id="excellent" name="teaching" value="excellent">
+            <label for="excellent">Excellent</label><br>
+            <input type="radio" id="good" name="teaching" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="average" name="teaching" value="average">
+            <label for="average">Average</label><br>
+            <input type="radio" id="poor" name="teaching" value="poor">
+            <label for="poor">Poor</label><br><br>
+        </div>
+        <div id="checkbox">
+            <label>Facilities:</label><br>
+            <input type="checkbox" id="labs" name="facility" value="labs">
+            <label for="labs">Labs</label><br>
+            <input type="checkbox" id="Course Material" name="facility" value="Course Material">
+            <label for="Course Material">Course Material</label><br>
+            <input type="checkbox" id="wifi" name="facility" value="Doubt Solving">
+            <label for="Doubt Solving">Doubt Solving</label><br><br>
+        </div>
+            <label for="suggestions">Suggestion Box:</label><br>
+           <textarea id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Any suggestion for improvement"></textarea>
+        </fieldset>
+        
+    </div>
+
+        <br>
+        <button type="submit">Submit Feedback</button><br><br>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
